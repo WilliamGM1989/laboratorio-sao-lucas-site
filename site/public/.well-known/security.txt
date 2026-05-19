@@ -1,0 +1,4 @@
+Contact: mailto:contato@laboratoriosaolucas.com.br
+Expires: 2027-05-03T00:00:00.000Z
+Preferred-Languages: pt-BR, en
+Canonical: https://saolucaslabs.com.br/.well-known/security.txt

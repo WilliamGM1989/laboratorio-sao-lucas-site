@@ -1,0 +1,937 @@
+[
+  {
+    "nome": "Hemograma Completo",
+    "slug": "hemograma-completo",
+    "categoria": "hematologia",
+    "descricao": "Avalia as células do sangue (hemácias, leucócitos e plaquetas), ajudando a diagnosticar anemias, infecções e outras condições.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar ao laboratório todos os medicamentos em uso.",
+      "observacoes": [
+        "Não é necessário jejum para este exame."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "hemácias",
+      "leucócitos",
+      "plaquetas",
+      "anemia"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Hematócrito",
+    "slug": "hematocrito",
+    "categoria": "hematologia",
+    "descricao": "Mede a porcentagem de hemácias no sangue, auxiliando no diagnóstico de anemias e desidratação.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso.",
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "hemácias",
+      "anemia",
+      "desidratação"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "VHS (Velocidade de Hemossedimentação)",
+    "slug": "vhs",
+    "categoria": "hematologia",
+    "descricao": "Avalia a presença de processos inflamatórios ou infecciosos no organismo.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": "Jejum de 4 horas.",
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso, especialmente anti-inflamatórios.",
+      "observacoes": [
+        "Colher preferencialmente pela manhã."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "inflamação",
+      "infecção"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Reticulócitos",
+    "slug": "reticulocitos",
+    "categoria": "hematologia",
+    "descricao": "Avalia a produção de hemácias pela medula óssea, importante no acompanhamento de anemias.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso.",
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "hemácias",
+      "medula",
+      "anemia"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Tipagem Sanguínea (ABO/Rh)",
+    "slug": "tipagem-sanguinea",
+    "categoria": "hematologia",
+    "descricao": "Determina o tipo sanguíneo (A, B, AB ou O) e o fator Rh (positivo ou negativo).",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "tipo sanguíneo",
+      "Rh",
+      "transfusão"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Glicemia de Jejum",
+    "slug": "glicemia-de-jejum",
+    "categoria": "bioquimica",
+    "descricao": "Mede o nível de açúcar (glicose) no sangue após período de jejum. Fundamental para diagnóstico e acompanhamento de diabetes.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": "Jejum de 8 a 12 horas. Pode beber água.",
+      "restricoesAlimentares": [
+        "Evitar alimentos com alto teor de açúcar na véspera."
+      ],
+      "restricoesAtividade": [
+        "Evitar exercício físico intenso na véspera."
+      ],
+      "medicamentos": "Consultar médico sobre suspensão de medicamentos para diabetes.",
+      "observacoes": [
+        "Colher preferencialmente pela manhã."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "glicose",
+      "diabetes",
+      "açúcar"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Sociedade Brasileira de Diabetes"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Colesterol Total e Frações",
+    "slug": "colesterol-total-fracoes",
+    "categoria": "bioquimica",
+    "descricao": "Mede os níveis de colesterol total, HDL, LDL e triglicerídeos. Importante para avaliação do risco cardiovascular.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": "Jejum de 12 horas. Pode beber água.",
+      "restricoesAlimentares": [
+        "Evitar alimentos gordurosos nas 24 horas anteriores.",
+        "Não consumir bebidas alcoólicas por 72 horas antes."
+      ],
+      "restricoesAtividade": [
+        "Evitar exercício físico intenso nas 24 horas anteriores."
+      ],
+      "medicamentos": "Manter medicamentos habituais, salvo orientação médica contrária.",
+      "observacoes": [
+        "Colher preferencialmente pela manhã."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "colesterol",
+      "HDL",
+      "LDL",
+      "triglicerídeos",
+      "coração"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Sociedade Brasileira de Cardiologia"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Ureia",
+    "slug": "ureia",
+    "categoria": "bioquimica",
+    "descricao": "Avalia a função renal medindo a quantidade de ureia no sangue.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso.",
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "rins",
+      "função renal"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Creatinina",
+    "slug": "creatinina",
+    "categoria": "bioquimica",
+    "descricao": "Avalia a função dos rins medindo a creatinina no sangue. Níveis elevados podem indicar problemas renais.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [
+        "Evitar consumo excessivo de carne nas 24 horas anteriores."
+      ],
+      "restricoesAtividade": [
+        "Evitar exercício físico intenso nas 24 horas anteriores."
+      ],
+      "medicamentos": "Informar medicamentos em uso.",
+      "observacoes": [
+        "Não é obrigatório jejum, mas pode ser solicitado pelo médico."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "rins",
+      "função renal",
+      "creatinina"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Ácido Úrico",
+    "slug": "acido-urico",
+    "categoria": "bioquimica",
+    "descricao": "Mede o nível de ácido úrico no sangue. Valores elevados podem indicar gota ou problemas renais.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": "Jejum de 8 horas.",
+      "restricoesAlimentares": [
+        "Evitar alimentos ricos em purinas (carnes vermelhas, frutos do mar, vísceras) por 24 horas."
+      ],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso.",
+      "observacoes": []
+    },
+    "tags": [
+      "sangue",
+      "gota",
+      "rins",
+      "purinas"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Urocultura",
+    "slug": "urocultura",
+    "categoria": "microbiologia",
+    "descricao": "Identifica bactérias presentes na urina para diagnóstico de infecções urinárias.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar se está usando antibióticos. Idealmente, coletar antes de iniciar o tratamento.",
+      "observacoes": [
+        "Coletar a primeira urina da manhã.",
+        "Fazer higiene íntima antes da coleta.",
+        "Desprezar o primeiro jato e coletar o jato médio.",
+        "Utilizar frasco estéril fornecido pelo laboratório."
+      ]
+    },
+    "tags": [
+      "urina",
+      "infecção urinária",
+      "bactéria",
+      "cultura"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "3 a 5 dias úteis"
+  },
+  {
+    "nome": "Cultura de Secreção",
+    "slug": "cultura-de-secrecao",
+    "categoria": "microbiologia",
+    "descricao": "Identifica microrganismos em secreções (garganta, ouvido, feridas) para diagnóstico de infecções.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar se está usando antibióticos. Idealmente, coletar antes de iniciar o tratamento.",
+      "observacoes": [
+        "Não usar antissépticos no local antes da coleta.",
+        "Para cultura de garganta: não escovar os dentes nem usar enxaguante bucal antes."
+      ]
+    },
+    "tags": [
+      "secreção",
+      "infecção",
+      "bactéria",
+      "cultura",
+      "garganta"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "3 a 7 dias úteis"
+  },
+  {
+    "nome": "Antibiograma",
+    "slug": "antibiograma",
+    "categoria": "microbiologia",
+    "descricao": "Determina a sensibilidade de bactérias a diferentes antibióticos, orientando o tratamento mais eficaz.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Realizado automaticamente quando a cultura identifica bactérias.",
+        "Não requer preparo adicional além da cultura."
+      ]
+    },
+    "tags": [
+      "antibiótico",
+      "bactéria",
+      "sensibilidade",
+      "tratamento"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "3 a 7 dias úteis"
+  },
+  {
+    "nome": "Gram de Secreção",
+    "slug": "gram-de-secrecao",
+    "categoria": "microbiologia",
+    "descricao": "Coloração rápida para identificação preliminar de bactérias em secreções.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Mesmas orientações da cultura de secreção."
+      ]
+    },
+    "tags": [
+      "secreção",
+      "bactéria",
+      "coloração",
+      "diagnóstico rápido"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Micológico Direto",
+    "slug": "micologico-direto",
+    "categoria": "microbiologia",
+    "descricao": "Exame para identificação de fungos em amostras de pele, unha ou secreções.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Suspender antifúngicos tópicos por 7 dias e orais por 15 dias antes, conforme orientação médica.",
+      "observacoes": [
+        "Não lavar a região afetada no dia do exame.",
+        "Para unhas: não usar esmalte por 7 dias antes."
+      ]
+    },
+    "tags": [
+      "fungo",
+      "pele",
+      "unha",
+      "micose"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 a 3 dias úteis"
+  },
+  {
+    "nome": "TSH (Hormônio Tireoestimulante)",
+    "slug": "tsh",
+    "categoria": "imunologia",
+    "descricao": "Avalia o funcionamento da tireoide. É o principal exame para diagnóstico de hipo e hipertireoidismo.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar se usa medicamentos para tireoide (levotiroxina). Coletar antes de tomar a dose diária.",
+      "observacoes": [
+        "Não é necessário jejum.",
+        "Para quem usa levotiroxina: coletar o sangue antes de tomar o medicamento."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "tireoide",
+      "hormônio",
+      "hipotireoidismo",
+      "hipertireoidismo"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Sociedade Brasileira de Endocrinologia"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "T4 Livre",
+    "slug": "t4-livre",
+    "categoria": "imunologia",
+    "descricao": "Mede o nível do hormônio tiroxina livre no sangue, complementando a avaliação da função tireoidiana.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar se usa medicamentos para tireoide.",
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "tireoide",
+      "hormônio",
+      "tiroxina"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "PSA (Antígeno Prostático Específico)",
+    "slug": "psa",
+    "categoria": "imunologia",
+    "descricao": "Marcador utilizado no rastreamento e acompanhamento de doenças da próstata, incluindo câncer.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": "Jejum de 4 horas.",
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [
+        "Evitar relação sexual ou masturbação por 48 horas antes.",
+        "Evitar andar de bicicleta por 48 horas antes.",
+        "Não realizar exame de toque retal nos 3 dias anteriores."
+      ],
+      "medicamentos": "Informar medicamentos em uso, especialmente finasterida ou dutasterida.",
+      "observacoes": [
+        "Coletar antes de qualquer procedimento prostático.",
+        "Aguardar 30 dias após biópsia de próstata."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "próstata",
+      "câncer",
+      "marcador tumoral"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Sociedade Brasileira de Urologia"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Beta-HCG",
+    "slug": "beta-hcg",
+    "categoria": "imunologia",
+    "descricao": "Exame de sangue para confirmação de gravidez. Detecta o hormônio HCG produzido pelo embrião.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Não é necessário jejum.",
+        "Pode ser coletado a qualquer hora do dia."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "gravidez",
+      "hormônio",
+      "gestação"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Hepatite B (HBsAg)",
+    "slug": "hepatite-b-hbsag",
+    "categoria": "doencas-infecciosas",
+    "descricao": "Detecta a presença do antígeno de superfície do vírus da hepatite B, indicando infecção ativa.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "hepatite",
+      "fígado",
+      "vírus"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "HIV (Anti-HIV 1 e 2)",
+    "slug": "hiv",
+    "categoria": "doencas-infecciosas",
+    "descricao": "Detecta anticorpos contra o vírus HIV. Exame de triagem para diagnóstico de infecção pelo HIV.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Não é necessário jejum.",
+        "Janela imunológica: resultado pode ser negativo até 30 dias após a exposição."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "HIV",
+      "AIDS",
+      "vírus",
+      "IST"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Ministério da Saúde"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "VDRL (Sífilis)",
+    "slug": "vdrl",
+    "categoria": "doencas-infecciosas",
+    "descricao": "Exame de triagem para diagnóstico de sífilis. Detecta anticorpos não treponêmicos.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "sífilis",
+      "IST",
+      "venérea"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Hepatite C (Anti-HCV)",
+    "slug": "hepatite-c",
+    "categoria": "doencas-infecciosas",
+    "descricao": "Detecta anticorpos contra o vírus da hepatite C, indicando contato prévio ou infecção ativa.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "hepatite",
+      "fígado",
+      "vírus"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Tempo de Protrombina (TP/INR)",
+    "slug": "tempo-protrombina",
+    "categoria": "coagulacao",
+    "descricao": "Avalia a via extrínseca da coagulação. Essencial para monitoramento de pacientes em uso de anticoagulantes.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar uso de anticoagulantes (varfarina, marevan). Coletar no horário habitual da medicação.",
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "coagulação",
+      "anticoagulante",
+      "INR",
+      "varfarina"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Tempo de Tromboplastina Parcial (TTPA)",
+    "slug": "ttpa",
+    "categoria": "coagulacao",
+    "descricao": "Avalia a via intrínseca da coagulação. Utilizado no pré-operatório e monitoramento de heparina.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar uso de heparina ou outros anticoagulantes.",
+      "observacoes": [
+        "Não é necessário jejum."
+      ]
+    },
+    "tags": [
+      "sangue",
+      "coagulação",
+      "heparina",
+      "pré-operatório"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "EAS (Urina tipo I)",
+    "slug": "eas-urina",
+    "categoria": "urinalise",
+    "descricao": "Exame básico de urina que avalia cor, aspecto, pH, proteínas, glicose e sedimento urinário.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso, pois alguns podem alterar a cor da urina.",
+      "observacoes": [
+        "Coletar a primeira urina da manhã (mais concentrada).",
+        "Fazer higiene íntima antes da coleta.",
+        "Desprezar o primeiro jato e coletar o jato médio.",
+        "Entregar a amostra ao laboratório em até 2 horas."
+      ]
+    },
+    "tags": [
+      "urina",
+      "EAS",
+      "urina tipo 1",
+      "exame de urina"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "Mesmo dia"
+  },
+  {
+    "nome": "Urina de 24 Horas",
+    "slug": "urina-24-horas",
+    "categoria": "urinalise",
+    "descricao": "Coleta de toda a urina produzida em 24 horas para avaliação de substâncias como proteínas, cálcio e creatinina.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [
+        "Manter atividades normais durante a coleta."
+      ],
+      "medicamentos": "Consultar médico sobre suspensão de medicamentos.",
+      "observacoes": [
+        "Pela manhã, ao acordar, desprezar a primeira urina e anotar o horário.",
+        "A partir desse momento, coletar TODA a urina por 24 horas no frasco fornecido.",
+        "Na manhã seguinte, no mesmo horário anotado, coletar a última urina.",
+        "Manter o frasco refrigerado durante toda a coleta.",
+        "Entregar ao laboratório imediatamente após a última coleta."
+      ]
+    },
+    "tags": [
+      "urina",
+      "24 horas",
+      "proteinúria",
+      "cálcio",
+      "creatinina"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 a 2 dias úteis"
+  },
+  {
+    "nome": "Parasitológico de Fezes (EPF)",
+    "slug": "parasitologico-fezes",
+    "categoria": "parasitologia",
+    "descricao": "Detecta a presença de parasitas intestinais (vermes e protozoários) nas fezes.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Não usar laxantes antes da coleta. Informar se está usando antiparasitários.",
+      "observacoes": [
+        "Coletar as fezes em frasco fornecido pelo laboratório.",
+        "Evitar contaminação com urina ou água.",
+        "Entregar ao laboratório no mesmo dia da coleta.",
+        "Para exame seriado: coletar amostras em dias alternados conforme orientação."
+      ]
+    },
+    "tags": [
+      "fezes",
+      "parasita",
+      "verme",
+      "protozoário"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Pesquisa de Sangue Oculto nas Fezes",
+    "slug": "sangue-oculto-fezes",
+    "categoria": "parasitologia",
+    "descricao": "Detecta a presença de sangue invisível nas fezes, importante para rastreamento de doenças intestinais.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [
+        "Evitar carne vermelha por 3 dias antes (método guaiaco).",
+        "Evitar vitamina C em excesso."
+      ],
+      "restricoesAtividade": [],
+      "medicamentos": "Evitar anti-inflamatórios e aspirina por 7 dias antes, se possível (consultar médico).",
+      "observacoes": [
+        "Coletar em frasco fornecido pelo laboratório.",
+        "Método imunológico: não requer restrição alimentar.",
+        "Confirmar com o laboratório qual método será utilizado."
+      ]
+    },
+    "tags": [
+      "fezes",
+      "sangue oculto",
+      "intestino",
+      "câncer colorretal"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "1 dia útil"
+  },
+  {
+    "nome": "Sexagem Fetal",
+    "slug": "sexagem-fetal",
+    "categoria": "diagnostico-molecular",
+    "descricao": "Exame de DNA fetal em sangue materno que identifica o sexo do bebê a partir da 8ª semana de gestação, analisando fragmentos do cromossomo Y na circulação da mãe.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar medicamentos em uso ao laboratório.",
+      "observacoes": [
+        "Idade gestacional mínima de 8 semanas completas (confirmada por ultrassom).",
+        "Trazer laudo ou imagem do ultrassom mais recente.",
+        "Não é necessário jejum.",
+        "Coleta por amostra de sangue venoso.",
+        "Realizado por laboratório de apoio especializado."
+      ]
+    },
+    "tags": [
+      "sexagem",
+      "fetal",
+      "gestação",
+      "sexo do bebê",
+      "DNA fetal",
+      "pré-natal"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "FEBRASGO"
+    ],
+    "prazoResultado": "5 a 7 dias úteis"
+  },
+  {
+    "nome": "Exame Toxicológico (CLT/CNH)",
+    "slug": "exame-toxicologico",
+    "categoria": "toxicologico",
+    "descricao": "Detecta o uso de substâncias psicoativas nos últimos 90 dias. Obrigatório para motoristas profissionais e exames admissionais/demissionais.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": "Informar TODOS os medicamentos em uso, incluindo fitoterápicos. Alguns medicamentos podem gerar resultados positivos.",
+      "observacoes": [
+        "Coleta de amostras de cabelo ou pelo.",
+        "Trazer documento de identidade com foto.",
+        "Para CNH: trazer o formulário do Detran.",
+        "Para CLT: trazer a documentação da empresa."
+      ]
+    },
+    "tags": [
+      "toxicológico",
+      "drogas",
+      "CLT",
+      "CNH",
+      "motorista",
+      "cabelo"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Detran"
+    ],
+    "prazoResultado": "7 a 10 dias úteis"
+  },
+  {
+    "nome": "Teste de Paternidade (DNA)",
+    "slug": "teste-paternidade-dna",
+    "categoria": "genetico-dna",
+    "descricao": "Exame de DNA para confirmação de vínculo biológico de paternidade. Realizado através de laboratório de apoio especializado.",
+    "requerPreparo": true,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [
+        "Não comer, beber ou fumar 1 hora antes da coleta."
+      ],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Coleta por swab bucal (raspado na bochecha).",
+        "Trazer documentos de identidade de todos os participantes.",
+        "Menores de idade devem estar acompanhados de responsável legal.",
+        "Realizado por laboratório de apoio especializado."
+      ]
+    },
+    "tags": [
+      "DNA",
+      "paternidade",
+      "genética",
+      "vínculo biológico"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML"
+    ],
+    "prazoResultado": "15 a 20 dias úteis"
+  },
+  {
+    "nome": "PCR para COVID-19 (RT-PCR)",
+    "slug": "pcr-covid",
+    "categoria": "diagnostico-molecular",
+    "descricao": "Exame molecular de alta precisão para detecção do SARS-CoV-2. Considerado o padrão-ouro para diagnóstico de COVID-19.",
+    "requerPreparo": false,
+    "preparo": {
+      "jejum": null,
+      "restricoesAlimentares": [],
+      "restricoesAtividade": [],
+      "medicamentos": null,
+      "observacoes": [
+        "Coleta por swab de nasofaringe.",
+        "Melhor sensibilidade entre o 3º e 7º dia de sintomas.",
+        "Realizado por laboratório de apoio especializado."
+      ]
+    },
+    "tags": [
+      "COVID",
+      "PCR",
+      "coronavírus",
+      "molecular",
+      "diagnóstico"
+    ],
+    "fontesPreparo": [
+      "SBPC/ML",
+      "Anvisa"
+    ],
+    "prazoResultado": "1 a 3 dias úteis"
+  }
+]
