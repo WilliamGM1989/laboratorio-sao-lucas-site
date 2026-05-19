@@ -88,6 +88,8 @@ export function Header() {
             </a>
             <a
               href={siteConfig.resultadosUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group flex items-center gap-2 rounded-lg bg-[#0B1B35] px-6 py-2.5 text-sm font-semibold text-white transition hover:bg-[#243580]"
             >
               Resultados
@@ -135,6 +137,8 @@ export function Header() {
           </a>
           <a
             href={siteConfig.resultadosUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-3 flex items-center justify-center gap-2 rounded-lg bg-[#0B1B35] px-6 py-3.5 text-center font-semibold text-white"
           >
             Ver Resultados

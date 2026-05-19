@@ -38,29 +38,20 @@ export default function PrivacidadePage() {
             contato, cadastro ou login. O contato é realizado exclusivamente via WhatsApp
             e telefone.
           </p>
-          <p>
-            Utilizamos o Google Analytics 4 para coletar dados anônimos de navegação
-            (páginas visitadas, tempo de permanência, dispositivo utilizado) com o objetivo
-            de melhorar a experiência do usuário. Esses dados são coletados somente após
-            o consentimento do usuário via banner de cookies.
-          </p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold text-neutral-800">3. Cookies</h2>
           <p>
-            Utilizamos cookies estritamente necessários para o funcionamento do site e
-            cookies de análise (Google Analytics) que são ativados somente após o
-            consentimento do usuário. Você pode recusar cookies de análise sem prejuízo
-            à navegação.
+            Utilizamos apenas cookies estritamente necessários para o funcionamento do site.
+            Não utilizamos cookies de rastreamento ou análise de terceiros.
           </p>
         </section>
 
         <section>
           <h2 className="text-xl font-semibold text-neutral-800">4. Compartilhamento de Dados</h2>
           <p>
-            Não compartilhamos, vendemos ou transferimos dados de navegação a terceiros,
-            exceto ao Google Analytics para fins estatísticos anônimos.
+            Não coletamos, compartilhamos, vendemos ou transferimos dados de navegação a terceiros.
           </p>
         </section>
 

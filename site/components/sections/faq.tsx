@@ -6,6 +6,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { safeJsonLd } from "@/lib/utils";
 
 const faqs = [
   {
@@ -60,7 +61,7 @@ export function FAQ() {
     <section id="faq" className="px-6 py-14 lg:px-8 lg:py-16">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(faqSchema) }}
       />
       <div className="mx-auto max-w-3xl">
         <div className="mb-8 text-center">

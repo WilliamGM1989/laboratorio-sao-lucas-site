@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ChevronRight, ArrowLeft, Clock, UtensilsCrossed, Dumbbell, Pill, AlertCircle, ArrowRight } from "lucide-react";
 import { getAllSlugs, getExameBySlug, getExamesByCategoria } from "@/lib/exames";
+import { safeJsonLd } from "@/lib/utils";
 import { categorias } from "@/data/categorias";
 import { siteConfig } from "@/data/site-config";
 import { ExamCard } from "@/components/exames/exam-card";
@@ -177,11 +178,11 @@ export default async function ExamePage({
     <main id="main-content">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(medicalTestSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(medicalTestSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(breadcrumbSchema) }}
       />
       {/* Breadcrumb */}
       <div className="bg-[#F8FAFB] px-6 pt-28 pb-4 lg:px-8 lg:pt-32">

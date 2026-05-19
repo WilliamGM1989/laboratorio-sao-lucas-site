@@ -9,6 +9,7 @@ import { FAQ } from "@/components/sections/faq";
 import { AnimatedStats } from "@/components/sections/animated-stats";
 import { Estrutura } from "@/components/sections/estrutura";
 import { getExamesComPreparo } from "@/lib/exames";
+import { safeJsonLd } from "@/lib/utils";
 
 const SITE_URL = "https://saolucaslabs.com.br";
 
@@ -117,11 +118,11 @@ export default function HomePage() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(localBusinessSchema) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        dangerouslySetInnerHTML={{ __html: safeJsonLd(websiteSchema) }}
       />
       <main id="main-content">
         <Hero />

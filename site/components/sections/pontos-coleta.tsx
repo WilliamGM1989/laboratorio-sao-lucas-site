@@ -2,6 +2,7 @@
 
 import { Building2, Stethoscope, Home, MessageCircle, MapPin, Phone, Coffee } from "lucide-react";
 import { ExpandingCards, CardItem } from "@/components/ui/expanding-cards";
+import { siteConfig } from "@/data/site-config";
 
 const locais: CardItem[] = [
   {
@@ -53,7 +54,7 @@ const locais: CardItem[] = [
     icon: <Home size={24} />,
     extra: (
       <a
-        href="https://wa.me/5543996097798?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20coleta%20domiciliar."
+        href={`https://wa.me/${siteConfig.contato.whatsappNumero}?text=${encodeURIComponent("Olá, gostaria de agendar uma coleta domiciliar.")}`}
         className="inline-flex items-center gap-2 rounded-lg bg-[#25D366] px-5 py-2.5 text-sm font-semibold text-white transition hover:brightness-110"
       >
         <MessageCircle size={16} />

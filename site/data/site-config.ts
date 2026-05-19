@@ -29,7 +29,7 @@ export const siteConfig = {
     instagram: "https://www.instagram.com/labsaolucas3",
   },
 
-  resultadosUrl: process.env.NEXT_PUBLIC_RESULTADOS_URL ?? "http://186.251.121.66:9090/ConcentWeb/servlet/hlab8000",
+  resultadosUrl: process.env.NEXT_PUBLIC_RESULTADOS_URL ?? "",
 } as const;
 
 export const pontosColeta: PontoColeta[] = [

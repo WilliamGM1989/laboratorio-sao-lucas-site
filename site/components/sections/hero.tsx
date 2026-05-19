@@ -42,6 +42,8 @@ export function Hero() {
           <div className="flex flex-col gap-3 sm:flex-row">
             <a
               href={siteConfig.resultadosUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="group inline-flex items-center justify-center gap-2 rounded-lg bg-white px-6 py-3 text-sm font-semibold text-[#0B1B35] transition hover:bg-white/90"
             >
               Ver Resultados
