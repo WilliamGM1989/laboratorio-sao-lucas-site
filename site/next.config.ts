@@ -58,6 +58,8 @@ const nextConfig: NextConfig = {
   },
 };
 
-initOpenNextCloudflareForDev();
+if (!process.env.VERCEL) {
+  initOpenNextCloudflareForDev();
+}
 
 export default nextConfig;
