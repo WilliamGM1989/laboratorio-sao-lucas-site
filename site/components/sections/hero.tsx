@@ -6,9 +6,11 @@ import { ArrowRight } from "lucide-react";
 import { siteConfig, pontosColeta, convenios } from "@/data/site-config";
 
 const heroImages = [
-  { src: "/images/dra-edimara-laboratorio.jpeg", alt: "Dra. Edimara no laboratório realizando análises clínicas" },
-  { src: "/images/coleta-em-andamento.jpeg", alt: "Profissional realizando coleta de sangue" },
-  { src: "/images/recepcao-logo.jpeg", alt: "Recepção do Laboratório São Lucas" },
+  { src: "/images/hero-edimara-pipeta.jpeg", alt: "Dra. Edimara realizando análises no laboratório" },
+  { src: "/images/hero-coleta-clinica.jpeg", alt: "Coleta de sangue na sede do Laboratório São Lucas" },
+  { src: "/images/hero-recepcao.jpeg", alt: "Recepção do Laboratório São Lucas" },
+  { src: "/images/hero-sala-coleta.jpeg", alt: "Sala de coleta equipada do Laboratório São Lucas" },
+  { src: "/images/hero-sala-completa.jpeg", alt: "Sala de coleta completa do Laboratório São Lucas" },
 ];
 
 export function Hero() {

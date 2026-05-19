@@ -1,6 +1,6 @@
 "use client";
 
-import { Building2, Stethoscope, Home, MessageCircle, MapPin, Phone } from "lucide-react";
+import { Building2, Stethoscope, Home, MessageCircle, MapPin, Phone, Coffee } from "lucide-react";
 import { ExpandingCards, CardItem } from "@/components/ui/expanding-cards";
 
 const locais: CardItem[] = [
@@ -49,7 +49,7 @@ const locais: CardItem[] = [
     title: "Coleta Domiciliar",
     description:
       "Realizamos coleta em domicílio e coleta empresarial em Sertanópolis e região, mediante agendamento prévio.",
-    imgSrc: "/images/coleta-domiciliar-cena.webp",
+    imgSrc: "/images/coleta-domiciliar-luva.jpeg",
     icon: <Home size={24} />,
     extra: (
       <a
@@ -60,6 +60,14 @@ const locais: CardItem[] = [
         Agendar via WhatsApp
       </a>
     ),
+  },
+  {
+    id: "cafezinho",
+    title: "Cafezinho pós-coleta",
+    description:
+      "Sabemos que você veio em jejum. Por isso, após a coleta oferecemos um cafezinho quentinho para repor as energias com carinho.",
+    imgSrc: "/images/cafezinho.jpeg",
+    icon: <Coffee size={24} />,
   },
 ];
 
